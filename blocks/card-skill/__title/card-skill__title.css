@@ -1,0 +1,10 @@
+.card-skill__title {
+  margin: 0;
+  padding: 8px;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 600;
+  color: #fff;
+  border-bottom: 1px solid var(--color-grey);
+}

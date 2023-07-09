@@ -1,0 +1,14 @@
+.hero__title {
+  margin: 0;
+  margin-bottom: 32px;
+  max-width: 518px;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hero__title span {
+  color: var(--color-primary);
+}

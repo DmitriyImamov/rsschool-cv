@@ -1,0 +1,6 @@
+.card-project__button {
+  padding-right: 45px;
+  background-image: url('../../../images/card-project/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: 83% center;
+}

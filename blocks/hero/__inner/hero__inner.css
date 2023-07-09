@@ -1,0 +1,5 @@
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 112px;
+}

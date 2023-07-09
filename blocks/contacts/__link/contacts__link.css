@@ -1,0 +1,12 @@
+.contacts__link {
+  display: block;
+  padding-left: 37px;
+  max-width: 505px;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-grey);
+  background-repeat: no-repeat;
+  background-position: left center;
+}

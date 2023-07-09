@@ -1,0 +1,7 @@
+.media__link {
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

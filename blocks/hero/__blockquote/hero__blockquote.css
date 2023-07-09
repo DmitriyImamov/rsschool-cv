@@ -1,0 +1,6 @@
+.hero__blockquote {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 714px;
+}

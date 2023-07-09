@@ -7,6 +7,9 @@
 @import url(../blocks/reset/__link/reset__link.css);
 @import url(../blocks/reset/__list/reset__list.css);
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/visually-hidden/visually-hidden.css);
 
 /* nav */
 @import url(../blocks/nav/nav.css);
@@ -22,3 +25,76 @@
 @import url(../blocks/header/__burger-btn/header__burger-btn.css);
 @import url(../blocks/header/__burger-btn/_close/header__burger-btn_close.css);
 
+/* hero */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__column/hero__column.css);
+@import url(../blocks/hero/__column/_left/hero__column_left.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__description/hero__description.css);
+@import url(../blocks/hero/__figure/hero__figure.css);
+@import url(../blocks/hero/__img/hero__img.css);
+@import url(../blocks/hero/__figcaption/hero__figcaption.css);
+@import url(../blocks/hero/__sign/hero__sign.css);
+@import url(../blocks/hero/__blockquote/hero__blockquote.css);
+@import url(../blocks/hero/__quote/hero__quote.css);
+@import url(../blocks/hero/__author/hero__author.css);
+
+/* project */
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__list/projects__list.css);
+
+/* card-project */
+@import url(../blocks/card-project/card-project.css);
+@import url(../blocks/card-project/__img/card-project__img.css);
+@import url(../blocks/card-project/__lang/card-project__lang.css);
+@import url(../blocks/card-project/__inner/card-project__inner.css);
+@import url(../blocks/card-project/__title/card-project__title.css);
+@import url(../blocks/card-project/__description/card-project__description.css);
+@import url(../blocks/card-project/__button/card-project__button.css);
+
+/* skills */
+@import url(../blocks/skills/skills.css);
+@import url(../blocks/skills/__column/skills__column.css);
+@import url(../blocks/skills/__inner/skills__inner.css);
+@import url(../blocks/skills/__title/skills__title.css);
+@import url(../blocks/skills/__img/skills__img.css);
+@import url(../blocks/skills/__list/skills__list.css);
+
+@import url(../blocks/card-skill/card-skill.css);
+@import url(../blocks/card-skill/__title/card-skill__title.css);
+@import url(../blocks/card-skill/__description/card-skill__description.css);
+
+/* about-me */
+@import url(../blocks/about-me/about-me.css);
+@import url(../blocks/about-me/__title/about-me__title.css);
+@import url(../blocks/about-me/__description/about-me__description.css);
+
+/* contacts */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__inner/contacts__inner.css);
+@import url(../blocks/contacts/__description/contacts__description.css);
+@import url(../blocks/contacts/__nav/contacts__nav.css);
+@import url(../blocks/contacts/__subtitle/contacts__subtitle.css);
+@import url(../blocks/contacts/__item/contacts__item.css);
+@import url(../blocks/contacts/__link/contacts__link.css);
+@import url(../blocks/contacts/__link/_theme/contacts__link_theme_discord.css);
+@import url(../blocks/contacts/__link/_theme/contacts__link_theme_email.css);
+
+/* code */
+@import url(../blocks/code/__title/code__title.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__top/footer__top.css);
+@import url(../blocks/footer/__media/footer__heading-media.css);
+
+@import url(../blocks/media/__list/media__list.css);
+@import url(../blocks/media/__heading/media__heading.css);
+@import url(../blocks/media/__list/media__list.css);
+@import url(../blocks/media/__item/media__item.css);
+@import url(../blocks/media/__link/media__link.css);
+@import url(../blocks/media/__link/_theme/media__link_theme_discord.css);
+@import url(../blocks/media/__link/_theme/media__link_theme_figma.css);
+@import url(../blocks/media/__link/_theme/media__link_theme_github.css);
+@import url(../blocks/media/__link/_theme/media__link_theme_rs.css);

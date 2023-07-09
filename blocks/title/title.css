@@ -1,0 +1,19 @@
+.title {
+  position: relative;
+  margin: 0;
+  padding-left: 22px;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 500;
+  color: #fff;
+  background: linear-gradient(var(--color-primary), var(--color-primary)) no-repeat;
+}
+
+.title::after {
+  content: '#';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: var(--color-primary);
+}

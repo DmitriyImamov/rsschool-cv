@@ -1,0 +1,17 @@
+.about-me__description {
+  margin: 0;
+  max-width: 515px;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-grey);
+}
+
+.about-me__description:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.about-me__description:last-child {
+  margin-bottom: 27px;
+}

@@ -1,0 +1,9 @@
+.card-project__description {
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--color-grey);
+}

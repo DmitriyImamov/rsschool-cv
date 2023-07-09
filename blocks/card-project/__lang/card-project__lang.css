@@ -1,0 +1,9 @@
+.card-project__lang {
+  padding: 8px;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--color-grey);
+  border-bottom: 1px solid var(--color-grey);
+}

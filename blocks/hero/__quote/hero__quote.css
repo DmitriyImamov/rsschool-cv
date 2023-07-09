@@ -1,0 +1,40 @@
+.hero__quote {
+  position: relative;
+  margin: 0;
+  padding: 32px;
+  width: 100%;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 500;
+  color: #fff;
+  border-left: 1px solid var(--color-grey);
+  border-right: 1px solid var(--color-grey);
+  background: linear-gradient(var(--color-grey), var(--color-grey)) no-repeat, linear-gradient(var(--color-grey), var(--color-grey)) no-repeat, linear-gradient(var(--color-grey), var(--color-grey)) no-repeat, linear-gradient(var(--color-grey), var(--color-grey)) no-repeat;
+  background-size: 2.5% 1px, 93% 1px, 2.5% 1px, 93% 1px;
+  background-position: left top, right top, right bottom, left bottom;
+}
+
+.hero__quote::after {
+  content: '';
+  position: absolute;
+  top: -13px;
+  left: 13px;
+  width: 41px;
+  height: 28px;
+  background-image: url('../../../images/hero/quote-1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero__quote::before {
+  content: '';
+  position: absolute;
+  bottom: -13px;
+  right: 13px;
+  width: 41px;
+  height: 28px;
+  background-image: url('../../../images/hero/quote-1.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}

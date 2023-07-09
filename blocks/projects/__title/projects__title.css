@@ -1,0 +1,13 @@
+.projects__title {
+  margin-bottom: 74px;
+  background-size: 518px 1px;
+  background-position: 185px center;
+}
+
+.projects__title::after {
+  content: '#';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: var(--color-primary);
+}

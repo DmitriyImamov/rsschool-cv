@@ -1,0 +1,28 @@
+.hero__sign {
+  position: relative;
+  margin: 0;
+  padding: 8px 34px;
+  max-width: 322px;
+  font-family: 'Fira Code', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: var(--color-grey);
+  border: 1px solid var(--color-grey);
+}
+
+.hero__sign span {
+  font-weight: 600;
+  color: #fff;
+}
+
+.hero__sign::after {
+  content: '';
+  position: absolute;
+  top: 6.5px;
+  left: 8px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-primary);
+}

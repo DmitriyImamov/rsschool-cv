@@ -48,6 +48,267 @@
         <span></span>
       </button>
     </header>
+    <main>
+      <h1 class="visually-hidden">
+        front-end developer
+      </h1>
+      <section class="hero">
+        <div class="hero__column hero__column_left">
+          <h2 class="hero__title">
+            Dmitry is a beginner <span>front-end developer</span>
+          </h2>
+          <p class="hero__description">
+            He crafts responsive websites where technologies meet creativity
+          </p>
+          <a class="button reset__link" href="#">
+            Contact me!!
+          </a>
+        </div>
+        <div class="hero__column">
+          <figure class="hero__figure">
+            <img class="hero__img avatar__img" src="./images/hero/avatar.png" alt="my avatar">
+            <figcaption class="hero__figcaption avatar__figcaption">
+              <p class="hero__sign avatar__description">
+                Currently working on <span>Portfolio</span>
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <blockquote class="hero__blockquote">
+          <p class="hero__quote">
+            With great power comes great electricity bill
+          </p>
+          <div class="hero__author">
+            - Dr. Who
+          </div>
+        </blockquote>
+      </section>
+
+      <section class="projects">
+        <h2 class="projects__title title">
+          projects
+        </h2>
+        <ul class="projects__list reset__list">
+          <li class="card-project">
+            <div class="card-project__img">
+            </div>
+            <div class="card-project__lang">
+              HTML CSS
+            </div>
+            <div class="card-project__inner">
+              <h3 class="card-project__title">
+                ChertNodes
+              </h3>
+              <p class="card-project__description">
+                Minecraft servers hosting
+              </p>
+              <a class="card-project__button button reset__link" href="#">
+                Live
+              </a>
+            </div>
+          </li>
+          <li class="card-project">
+            <div class="card-project__img">
+            </div>
+            <div class="card-project__lang">
+              HTML CSS
+            </div>
+            <div class="card-project__inner">
+              <h3 class="card-project__title">
+                ChertNodes
+              </h3>
+              <p class="card-project__description">
+                Minecraft servers hosting
+              </p>
+              <a class="card-project__button button reset__link" href="#">
+                Live
+              </a>
+            </div>
+          </li>
+          <li class="card-project">
+            <div class="card-project__img">
+            </div>
+            <div class="card-project__lang">
+              HTML CSS
+            </div>
+            <div class="card-project__inner">
+              <h3 class="card-project__title">
+                ChertNodes
+              </h3>
+              <p class="card-project__description">
+                Minecraft servers hosting
+              </p>
+              <a class="card-project__button button reset__link" href="#">
+                Live
+              </a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="skills">
+        <h2 class="skills__title title">
+          skills
+        </h2>
+        <div class="skills__inner">
+          <div class="skills__img">
+          </div>
+          <ul class="skills__list reset__list">
+            <li class="skills__column">
+              <div class="card-skill">
+                <h3 class="card-skill__title">
+                  Languages
+                </h3>
+                <p class="card-skill__description">
+                  TypeScript Lua Python JavaScript
+                </p>
+              </div>
+            </li>
+            <li class="skills__column">
+              <div class="card-skill">
+                <h3 class="card-skill__title">
+                  Databases
+                </h3>
+                <p class="card-skill__description">
+                  SQLite PostgreSQL Mongo
+                </p>
+              </div>
+              <div class="card-skill">
+                <h3 class="card-skill__title">
+                  Other
+                </h3>
+                <p class="card-skill__description">
+                  HTML CSS EJS SCSS REST Jinja
+                </p>
+              </div>
+            </li>
+            <li class="skills__column">
+              <div class="card-skill">
+                <h3 class="card-skill__title">
+                  Tools
+                </h3>
+                <p class="card-skill__description">
+                  VSCode Neovim Linux Figma XFCE Arch Git Font Awesome
+                </p>
+              </div>
+              <div class="card-skill">
+                <h3 class="card-skill__title">
+                  Frameworks
+                </h3>
+                <p class="card-skill__description">
+                  React Vue Disnake Discord.js Flask Express.js
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about-me">
+        <h2 class="about-me__title title">
+          about-me
+        </h2>
+        <div class="about-me__column about-me__column_left">
+          <p class="about-me__description">
+            Hello, i’m Dmitriy!
+          </p>
+          <p class="about-me__description">
+            I like to learn something new, so I decided to try to become a front-end developer
+          </p>
+        </div>
+        <a class="button reset__link" href="#">
+          Read more
+        </a>
+      </section>
+
+      <section class="contacts">
+        <h2 class="contacts__title title">
+          contacts
+        </h2>
+        <div class="contacts__inner">
+          <p class="contacts__description">
+            I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me
+          </p>
+          <nav class="contacts__nav">
+            <p class="contacts__subtitle">
+              Message me here
+            </p>
+            <ul class="contacts__list reset__list">
+              <li class="contacts__item">
+                <a class="contacts__link_theme_discord contacts__link reset__link" href="#">
+                  !*****#3519
+                </a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link_theme_email contacts__link reset__link" href="#">
+                  *****@gmail.com
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section class="code">
+        <h2 class="code__title title">
+          Code Example
+        </h2>
+
+        <pre>
+          <code>
+            function enableValidation(options) {
+              const formList = document.querySelectorAll(options.formSelector);
+
+              formList.forEach( (form) => {
+                const inputList = [...form.querySelectorAll(options.inputSelector)];
+                const buttonElement = form.querySelector(options.submitButtonSelector);
+
+                inputList.forEach( (element) => {
+                  const formError = form.querySelector(`.${element.id}-error`);
+                  element.addEventListener('input', () => {
+                    isValid(element, formError, options.inputErrorClass, options.errorClass)
+                    toggleButtonState(inputList, buttonElement, options.inactiveButtonClass);
+                  });
+                });
+              });
+            };
+          </code>
+        </pre>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__top">
+        <a href="#" class="logo reset__link">
+          Dmitriy
+        </a>
+        <nav class="footer__media media">
+          <h3 class="media__heading">
+            Media
+          </h3>
+          <ul class="media__list reset__list">
+            <li class="media__item">
+              <a class="media__link media__link_theme_github" href="#">
+              </a>
+            </li>
+            <li class="media__item">
+              <a class="media__link media__link_theme_figma" href="#">
+              </a>
+            </li>
+            <li class="media__item">
+              <a class="media__link media__link_theme_discord" href="#">
+              </a>
+            </li>
+            <li class="media__item">
+              <a class="media__link media__link_theme_rs" target="_blank" href="https://rs.school/js/">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer__copyright">
+        &copy; Copyright 2023
+      </p>
+    </footer>
   </div>
   <script src="./js/index.js"></script>
 </body>
