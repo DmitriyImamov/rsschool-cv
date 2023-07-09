@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1054px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #2C3036;
+}
+
+@media (max-width: 1023.98px) {
+  .container {
+    position: relative;
+    overflow: hidden;
+  }
+}

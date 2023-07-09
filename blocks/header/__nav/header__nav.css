@@ -1,0 +1,18 @@
+@media (max-width: 1023.98px) {
+  .header__nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 100vh;
+    padding: 16px;
+    background-color: var(--color-grey--dark);
+    transform: translateX(100%);
+    transition-property: transform;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+  }
+}

@@ -1,0 +1,15 @@
+.header__burger-btn_close {
+
+}
+
+.header__burger-btn_close.header__burger-btn_close span {
+  opacity: 0;
+}
+
+.header__burger-btn_close.header__burger-btn::before {
+  transform: translateY(11px) rotate(45deg);
+}
+
+.header__burger-btn_close.header__burger-btn::after {
+  transform: translateY(-11px) rotate(135deg);
+}

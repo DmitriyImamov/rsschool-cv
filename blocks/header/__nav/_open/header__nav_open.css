@@ -1,0 +1,9 @@
+.header__nav_open {
+  transform: translateX(0);
+}
+
+.header__nav_open.header__nav {
+  transition-property: transform;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+}

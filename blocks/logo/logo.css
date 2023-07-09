@@ -1,0 +1,10 @@
+.logo {
+  padding-left: 24px;
+  font-family: 'Fira Code', sans-serif;
+  line-height: 1;
+  font-weight: 700;
+  color: #fff;
+  background-image: url('../../images/logo/logo.svg');
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+}

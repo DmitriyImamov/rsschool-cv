@@ -1,0 +1,9 @@
+:root {
+  --color-primary: #c778dd;
+
+  --color-grey--lighten: none;
+  --color-grey--light: none;
+  --color-grey: #abb2bf;
+  --color-grey--dark: #2c3036;;
+  --color-grey--darken: #282c33;;
+}

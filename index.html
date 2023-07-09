@@ -3,10 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Test</title>
 </head>
-<body>
-  <div></div>
+<body class="body">
+  <div class="container">
+    <header class="header">
+      <a class="header__logo logo reset__link" href="#">
+        Dmitriy
+      </a>
+      <nav class="header__nav nav" id="header__nav">
+        <ul class="nav__list reset__list">
+          <li class="nav__item">
+            <a class="nav__link reset__link" href="#">
+              about-me
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link reset__link" href="#">
+              works
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link reset__link" href="#">
+              contacts
+            </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link reset__link" href="#">
+              education
+            </a>
+          </li>
+        </ul>
+        <select class="nav__lang header__lang" name="lang" id="header__lang">
+          <option class="nav__option-lang header__option-lang" value="en" selected>
+            EN
+          </option>
+          <option class="nav__option-lang header__option-lang" value="ru">
+            RU
+          </option>
+        </select>
+      </nav>
+      <button class="header__burger-btn" id="header__burger-btn">
+        <span></span>
+      </button>
+    </header>
+  </div>
+  <script src="./js/index.js"></script>
 </body>
 </html>
