@@ -87,12 +87,16 @@
 /* example */
 @import url(../blocks/example/example.css);
 @import url(../blocks/example/__title/example__title.css);
+@import url(../blocks/example/__code/example__code.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__top/footer__top.css);
 @import url(../blocks/footer/__media/footer__heading-media.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
+
+/* media */
 @import url(../blocks/media/__list/media__list.css);
 @import url(../blocks/media/__heading/media__heading.css);
 @import url(../blocks/media/__list/media__list.css);

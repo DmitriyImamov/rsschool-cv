@@ -1,0 +1,6 @@
+.body {
+  background-image: url('../../images/body/body-background.svg');
+  background-position: center bottom;
+  background-size: 1054px 100%;
+  background-color: var( --color-grey--darken);
+}
