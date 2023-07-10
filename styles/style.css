@@ -40,12 +40,15 @@
 @import url(../blocks/hero/__author/hero__author.css);
 
 /* project */
+@import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__list/projects__list.css);
 
 /* card-project */
 @import url(../blocks/card-project/card-project.css);
 @import url(../blocks/card-project/__img/card-project__img.css);
+@import url(../blocks/card-project/__img/_theme/card-project__img_theme_how-to-learn.css);
+@import url(../blocks/card-project/__img/_theme/card-project__lang_theme_russian_travel.css);
 @import url(../blocks/card-project/__lang/card-project__lang.css);
 @import url(../blocks/card-project/__inner/card-project__inner.css);
 @import url(../blocks/card-project/__title/card-project__title.css);
@@ -81,8 +84,9 @@
 @import url(../blocks/contacts/__link/_theme/contacts__link_theme_discord.css);
 @import url(../blocks/contacts/__link/_theme/contacts__link_theme_email.css);
 
-/* code */
-@import url(../blocks/code/__title/code__title.css);
+/* example */
+@import url(../blocks/example/example.css);
+@import url(../blocks/example/__title/example__title.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);
