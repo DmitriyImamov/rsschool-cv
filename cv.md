@@ -27,7 +27,7 @@ function unite(...arrs) {
 no experience
 *********
 ## Education
-rs school
+[RS school](https://rs.school/)
 *********
 ## Languages
 * Russian - native
