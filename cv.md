@@ -2,7 +2,7 @@
 *********
 ## Contacts
 **Location:** Russia, Kazan
-**Phone:** +996-40#-##-##
+**Phone:** +996-403-##-##
 **Email:** dmitriyimamov@gmail.com
 **GitHub:** DmitriyImamov
 *********
