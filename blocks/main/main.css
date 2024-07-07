@@ -1,0 +1,6 @@
+.main {
+  padding: 0 30px;
+  display: grid;
+  grid-template-columns: 37.5% 61.5%;
+  gap: 30px;
+}

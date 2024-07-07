@@ -1,0 +1,11 @@
+.hero__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: 'FC';
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero__title > span {
+  color: #C778DD;
+}
