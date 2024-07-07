@@ -1,7 +1,7 @@
 .main {
   padding: 0 30px;
   display: grid;
-  grid-template-columns: 37.5% 61.5%;
+  grid-template-columns: 37.5% 55.8%;
   column-gap: 90px;
   row-gap: 45px;
 }
