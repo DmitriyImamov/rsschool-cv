@@ -29,6 +29,12 @@
 
 /* skills */
 @import url(./blocks/skills/skills.css);
+@import url(./blocks/skills/__list/skills__list.css);
+@import url(./blocks/skills/__item/skills__item.css);
+
+/* about */
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/__description/about__description.css);
 
 
 /* footer */

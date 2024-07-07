@@ -4,4 +4,15 @@
   font-size: 32px;
   font-weight: 500;
   color: #fff;
+  position: relative;
+}
+
+.title::before {
+  content: '';
+  width: 40%;
+  height: 2px;
+  background-color: #C778DD;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
