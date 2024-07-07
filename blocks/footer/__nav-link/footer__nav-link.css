@@ -1,0 +1,9 @@
+.footer__nav-link {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.footer__nav-link:hover > .footer__nav-icon {
+  fill: #C778DD;
+}

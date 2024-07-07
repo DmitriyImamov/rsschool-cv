@@ -25,6 +25,6 @@
   width: 100%;
 }
 
-.nav__link:hover > .nav__hash {
+.nav__link:hover > .hash {
   color: #fff;
 }
