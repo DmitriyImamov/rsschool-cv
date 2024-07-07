@@ -9,7 +9,7 @@
 
 .title::before {
   content: '';
-  width: 40%;
+  width: 50%;
   height: 2px;
   background-color: #C778DD;
   position: absolute;

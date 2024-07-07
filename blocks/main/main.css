@@ -1,7 +1,10 @@
 .main {
-  padding: 0 30px;
+  padding: 0 120px;
   display: grid;
   grid-template-columns: 37.5% 55.8%;
   column-gap: 90px;
   row-gap: 45px;
+  background-image: url(../../images/main/main-background.png);
+  background-position: right;
+  background-repeat: no-repeat;
 }
