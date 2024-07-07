@@ -1,0 +1,24 @@
+.hero__wrapper-avatar {
+  position: relative;
+}
+
+.hero__wrapper-avatar::after {
+  content: '';
+  width: 310px;
+  height: 3px;
+  background-color: #C778DD;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+}
+
+.hero__wrapper-avatar::before {
+  content: '';
+  width: 320px;
+  height: 3px;
+  background-color: #C778DD;
+  position: absolute;
+  bottom: 143px;
+  left: 142px;
+  transform: rotate(90deg);
+}

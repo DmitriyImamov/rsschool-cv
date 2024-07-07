@@ -1,0 +1,6 @@
+.footer__nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}

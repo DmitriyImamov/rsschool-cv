@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV</title>
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <a href="" class="logo reset__link">
+        Dmitriy
+      </a>
+      <nav class="nav">
+        <ul class="nav__list reset__list">
+          <li class="nav__item">
+            <a href="#about-me" class="nav__link reset__link">
+              <span class="hash">&#35;</span><span>about-me</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link reset__link">
+              <span class="hash">&#35;</span><span>skills</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link reset__link">
+              <span class="hash">&#35;</span><span>projects</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#experience" class="nav__link reset__link">
+              <span class="hash">&#35;</span><span>experience</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link reset__link">
+              <span class="hash">&#35;</span><span>contacts</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <span class="hero__wrapper-avatar">
+          <img class="hero__avatar" src="./images/hero/ava.jpg" alt="avatar">
+        </span>
+        <div class="hero__inner">
+          <h1 class="hero__title">
+            Dmitriy is a <span>front-end</span> developer
+          </h1>
+          <p class="hero__text">
+            He crafts responsive websites where technologies meet creativity
+          </p>
+        </div>
+      </section>
+      <section id="skills" class="skills">
+        <h2 class="title">
+          <span class="hash">&#35;</span>skills
+        </h2>
+        <ul class="skills__list reset__list">
+          <li class="skills__item">
+            <span class="hash">&hyphen;</span> HTML
+          </li>
+          <li class="skills__item">
+            <span class="hash">&hyphen;</span> CSS
+          </li>
+          <li class="skills__item">
+            <span class="hash">&hyphen;</span> JavaScript (Basic)
+          </li>
+          <li class="skills__item">
+            <span class="hash">&hyphen;</span> Git
+          </li>
+        </ul>
+        <h2 class="title">
+          <span class="hash">&#35;</span>language
+        </h2>
+        <ul class="skills__list reset__list">
+          <li class="skills__item">
+            <span class="hash">&hyphen;</span> english: <span class="hash">A1</span>
+          </li>
+          <li class="skills__item">
+            <span class="hash">&hyphen;</span> russian: <span class="hash">native</span>
+          </li>
+        </ul>
+        <h2 class="title">
+          <span class="hash">&#35;</span>education
+        </h2>
+        <p class="skills__description">
+          <span class="hash">&hyphen;</span> college
+        </p>
+      </section>
+      <section class="code">
+        <h2 class="section__title title">
+          <span class="hash">&#35;</span>code example
+        </h2>
+        <pre class="code__pre">
+          <code>
+  <span class="code__function">function</span> randomString() {
+    let str = 'qwertyuiopasdfghjklzxcvbnm1234567890!@#$%_+[];,./';
+    let res = '';
+
+    <span class="code__function"></span>function getRandom(min, max) {
+      <span class="code__return">return</span> Math.floor(Math.random() * max - 1);
+    }
+
+    for (let i = 0; i &lt;= 8; i++) {
+      res += str[getRandom(0, str.length - 1)];
+    }
+
+    inp.value = res;
+  }
+
+  btn.addEventListener('click', randomString);
+          </code>
+        </pre>
+      </section>
+      <section id="about-me" class="about">
+        <h2 class="section__title title">
+          <span class="hash">&#35;</span>about-me
+        </h2>
+        <p class="about__description description">
+          Hello, i&grave;m Dmitriy!
+        </p>
+        <p class="description">
+          In my work I complete assigned tasks on time, as meticulously as possible. In my free time I read and study Java Script.
+        </p>
+      </section>
+      <section id="experience" class="experience">
+        <h2 class="title section__title">
+          <span class="hash">&#35;</span>experience
+        </h2>
+        <p class="description">
+          no experience
+        </p>
+      </section>
+      <section id="projects" class="projects">
+        <h2 class="my projects__title title section__title">
+          <span class="hash">&#35;</span>projects
+        </h2>
+        <ul class="project__list reset__list">
+          <li class="card">
+            <div class="card__img"></div>
+            <div class="card__stack">
+              HTML CSS JavaScript
+            </div>
+            <div class="card__inner">
+              <h3 class="card__title">
+                Name project
+              </h3>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, non, delectus, incidunt totam repudiandae eveniet culpa possimus et deserunt excepturi doloremque? Mollitia magnam esse quos adipisci consequuntur excepturi voluptates veritatis.
+              </p>
+              <a href="https://dmitriyimamov.github.io/mesto/" class="card__link reset__link">
+                live <span class="hash">&rarr;</span>
+              </a>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__img"></div>
+            <div class="card__stack">
+              HTML CSS JavaScript
+            </div>
+            <div class="card__inner">
+              <h3 class="card__title">
+                Name project
+              </h3>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, non, delectus, incidunt totam repudiandae eveniet culpa possimus et deserunt excepturi doloremque? Mollitia magnam esse quos adipisci consequuntur excepturi voluptates veritatis.
+              </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__img"></div>
+            <div class="card__stack">
+              HTML CSS JavaScript
+            </div>
+            <div class="card__inner">
+              <h3 class="card__title">
+                Name project
+              </h3>
+              <p class="card__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, non, delectus, incidunt totam repudiandae eveniet culpa possimus et deserunt excepturi doloremque? Mollitia magnam esse quos adipisci consequuntur excepturi voluptates veritatis.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="" class="logo reset__link">
+        Dmitriy
+      </a>
+      <p class="footer__copyright">
+        &copy; Copyright 2024
+      </p>
+      <nav class="footer__nav">
+        <h2 class="footer__nav-title">
+          <span class="hash">&#35;</span>contacts
+        </h2>
+        <ul id="contacts" class="footer__nav-list reset__list">
+          <li class="footer__nav-item">
+            <a href="https://github.com/DmitriyImamov" class="footer__nav-link reset__link" target="_blank">
+              <svg class="footer__nav-icon" width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                    Created with Pixso.
+                </desc>
+                <defs/>
+                <path d="M15.5 6C9.69 6 5 10.58 5 16.25C5 20.78 8 24.62 12.17 25.98C12.7 26.07 12.9 25.76 12.9 25.49C12.9 25.25 12.88 24.44 12.88 23.58C10.25 24.05 9.56 22.95 9.35 22.37C9.23 22.08 8.72 21.17 8.28 20.93C7.91 20.73 7.38 20.26 8.26 20.25C9.09 20.23 9.68 20.99 9.88 21.3C10.82 22.85 12.33 22.41 12.94 22.14C13.03 21.48 13.3 21.03 13.61 20.77C11.27 20.52 8.83 19.63 8.83 15.71C8.83 14.59 9.23 13.67 9.9 12.95C9.8 12.7 9.43 11.65 10.01 10.24C10.01 10.24 10.89 9.97 12.9 11.29C13.74 11.06 14.63 10.94 15.52 10.94C16.41 10.94 17.31 11.06 18.15 11.29C20.15 9.96 21.03 10.24 21.03 10.24C21.61 11.65 21.24 12.7 21.14 12.95C21.81 13.67 22.22 14.58 22.22 15.71C22.22 19.64 19.76 20.52 17.42 20.77C17.81 21.09 18.13 21.71 18.13 22.67C18.13 24.04 18.12 25.14 18.12 25.49C18.12 25.76 18.32 26.08 18.84 25.98C20.93 25.29 22.74 23.98 24.02 22.24C25.3 20.49 25.99 18.4 26 16.25C26 10.58 21.3 6 15.5 6Z" fill="" fill-opacity="1.000000" fill-rule="nonzero"/>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="https://discordapp.com/users/925085947635318844" class="footer__nav-link reset__link" target="_blank">
+              <svg class="footer__nav-icon" width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                    Created with Pixso.
+                </desc>
+                <defs/>
+                <path d="M24.16 7.65C22.54 6.87 20.83 6.32 19.07 6C19.05 5.99 19.04 6 19.02 6C19.01 6.01 19 6.02 18.99 6.04C18.77 6.45 18.52 6.98 18.35 7.4C16.46 7.1 14.53 7.1 12.64 7.4C12.45 6.94 12.23 6.48 12 6.04C11.99 6.02 11.98 6.01 11.96 6C11.95 6 11.93 5.99 11.91 6C10.16 6.31 8.45 6.87 6.82 7.65C6.81 7.66 6.8 7.67 6.79 7.68C3.55 12.77 2.66 17.72 3.1 22.62C3.1 22.64 3.11 22.66 3.13 22.68C5.02 24.15 7.13 25.27 9.37 25.99C9.39 26 9.41 26 9.42 25.99C9.44 25.99 9.45 25.97 9.46 25.96C9.94 25.27 10.37 24.54 10.74 23.78C10.75 23.77 10.75 23.75 10.75 23.73C10.74 23.71 10.74 23.7 10.72 23.68C10.72 23.68 10.71 23.67 10.7 23.67C10.02 23.39 9.37 23.07 8.75 22.69C8.73 22.68 8.71 22.66 8.71 22.64C8.7 22.62 8.7 22.6 8.71 22.58C8.72 22.57 8.73 22.56 8.74 22.55C8.87 22.45 9 22.34 9.12 22.23C9.14 22.22 9.15 22.22 9.16 22.21C9.18 22.21 9.19 22.21 9.2 22.22C13.3 24.18 17.73 24.18 21.77 22.22C21.78 22.21 21.8 22.21 21.81 22.21C21.83 22.22 21.84 22.22 21.85 22.23C21.98 22.34 22.11 22.45 22.24 22.55C22.25 22.56 22.26 22.57 22.26 22.58C22.27 22.59 22.27 22.61 22.27 22.62C22.27 22.64 22.27 22.65 22.26 22.66C22.25 22.67 22.24 22.68 22.23 22.69C21.61 23.07 20.96 23.4 20.28 23.66C20.27 23.67 20.26 23.67 20.25 23.68C20.24 23.69 20.24 23.7 20.23 23.71C20.23 23.72 20.23 23.74 20.23 23.75C20.23 23.76 20.23 23.77 20.24 23.78C20.61 24.54 21.04 25.27 21.52 25.96C21.52 25.97 21.54 25.99 21.55 25.99C21.57 26 21.59 26 21.6 25.99C23.85 25.27 25.97 24.15 27.85 22.68C27.86 22.67 27.87 22.66 27.88 22.65C27.88 22.64 27.89 22.63 27.89 22.62C28.41 16.96 27.01 12.04 24.19 7.69C24.19 7.68 24.18 7.67 24.18 7.67C24.17 7.66 24.17 7.66 24.16 7.65ZM11.35 19.64C10.12 19.64 9.1 18.45 9.1 16.99C9.1 15.54 10.1 14.35 11.35 14.35C12.61 14.35 13.62 15.55 13.6 16.99C13.6 18.45 12.6 19.64 11.35 19.64ZM19.66 19.64C18.42 19.64 17.41 18.45 17.41 16.99C17.41 15.54 18.4 14.35 19.66 14.35C20.92 14.35 21.92 15.55 21.9 16.99C21.9 18.45 20.92 19.64 19.66 19.64Z" fill="" fill-opacity="1.000000" fill-rule="nonzero"/>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="https://rs.school/courses/javascript-ru" class="footer__nav-link reset__link" target="_blank">
+              <svg class="footer__nav-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 552.8 205.3"><style>.st0{fill:none}.st5,.st7{fill:none;stroke:#000;stroke-width:4;stroke-miterlimit:10}.st7{fill:none}</style><path d="m285.4 68 26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.9 3.6 6.9 5.4 12.2 5.4 3.9 0 7-.9 9.1-2.8 2-1.5 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.1-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4 6 4.2 9.6 11 10.7 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8s-5.3-2.8-9.2-2.8c-3.2 0-5.6.7-7.2 2-1.5 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.5 13.3 0 5.6-1.6 11.2-4.8 15.9-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8S286.1 77 285.4 68zM6.3 97.6V8.2h46.1c8.5 0 15.1.7 19.6 2.2 4.4 1.4 8.3 4.3 10.9 8.2 2.9 4.3 4.3 9.3 4.2 14.5.3 8.8-4.2 17.2-11.9 21.6-3 1.7-6.3 2.9-9.7 3.5 2.5.7 5 1.9 7.2 3.3 1.7 1.4 3.1 3 4.4 4.7 1.5 1.7 2.8 3.6 3.9 5.6l13.4 25.9H63L48.2 70.2c-1.9-3.5-3.5-5.8-5-6.9-2-1.4-4.4-2.1-6.8-2.1H34v36.3H6.3zM34 44.4h11.7c2.5-.2 4.9-.6 7.3-1.2 1.8-.3 3.4-1.3 4.5-2.8 2.7-3.6 2.3-8.7-1-11.8-1.8-1.5-5.3-2.3-10.3-2.3H34v18.1zM0 174.2l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.8 3.6 6.9 5.5 12.2 5.5 3.9 0 7-.9 9.1-2.8 2-1.6 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.2-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4s9.5 11 10.6 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8-2.2-1.9-5.3-2.8-9.2-2.7-3.2 0-5.6.7-7.2 2.1-1.6 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.6 13.2 0 5.6-1.7 11.1-4.8 15.8-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8-5.9-6-9.2-13.4-10-22.4z"/><path d="m133 167.2 24.2 7.3c-1.3 6.1-4 11.9-7.7 17-3.4 4.5-7.9 8-13 10.3-5.2 2.3-11.8 3.5-19.8 3.5-9.7 0-17.7-1.4-23.8-4.2-6.2-2.8-11.5-7.8-16-14.9-4.5-7.1-6.7-16.2-6.7-27.3 0-14.8 3.9-26.2 11.8-34.1s19-11.9 33.4-11.9c11.3 0 20.1 2.3 26.6 6.8 6.4 4.6 11.2 11.6 14.4 21l-24.4 5.4c-.6-2.1-1.5-4.2-2.7-6-1.5-2.1-3.4-3.7-5.7-4.9-2.3-1.2-4.9-1.7-7.5-1.7-6.3 0-11.1 2.5-14.4 7.6-2.5 3.7-3.8 9.6-3.8 17.6 0 9.9 1.5 16.7 4.5 20.4 3 3.7 7.2 5.5 12.7 5.5 5.3 0 9.3-1.5 12-4.4 2.7-3.1 4.7-7.4 5.9-13zm56.5-52.8h27.6v31.3h30.2v-31.3h27.8v89.4h-27.8v-36.2h-30.2v36.2h-27.6v-89.4z"/><path d="M271.3 159.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.3 4 34.4 12S364 144 364 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8s4.9-10.8 4.9-20.8c0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5zm93.4-.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.4 4 34.4 12S485 144 485 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8 3.3-3.9 4.9-10.8 4.9-20.8 0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10.1 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5z"/><path d="M482.1 114.4h27.6v67.4h43.1v22H482v-89.4z"/><ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63" ry="51.8"/><defs><ellipse id="SVGID_1_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63" ry="51.8"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" overflow="visible"/></clipPath><g style="clip-path:url(#SVGID_2_)"><path transform="rotate(-37.001 420.82 68.353)" class="st0" d="M330.9-14.2h179.8v165.1H330.9z"/><g id="Layer_2_1_"><defs><path id="SVGID_3_" transform="rotate(-37.001 420.82 68.353)" d="M330.9-14.2h179.8v165.1H330.9z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" overflow="visible"/></clipPath><g id="Layer_1-2" style="clip-path:url(#SVGID_4_)"><ellipse transform="rotate(-37.001 420.46 67.88)" class="st0" cx="420.5" cy="67.9" rx="63" ry="51.8"/><defs><ellipse id="SVGID_5_" transform="rotate(-37.001 420.46 67.88)" cx="420.5" cy="67.9" rx="63" ry="51.8"/></defs><clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" overflow="visible"/></clipPath><g style="clip-path:url(#SVGID_6_)"><path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z"/><defs><path id="SVGID_7_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z"/></defs><clipPath id="SVGID_8_"><use xlink:href="#SVGID_7_" overflow="visible"/></clipPath><ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63" ry="51.8" style="clip-path:url(#SVGID_8_)"/><path transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z" style="fill:none;stroke:#000;stroke-width:4;stroke-miterlimit:10;clip-path:url(#SVGID_8_)"/><ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63" ry="51.8"/><path transform="rotate(-37 420.799 68.802)" class="st0" d="M357.8 17h125.9v103.7H357.8z"/><defs><path id="SVGID_9_" transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z"/></defs><clipPath id="SVGID_10_"><use xlink:href="#SVGID_9_" overflow="visible"/></clipPath><ellipse transform="rotate(-37.001 420.46 67.88)" class="st5" cx="420.5" cy="67.9" rx="63" ry="51.8" style="clip-path:url(#SVGID_10_)"/><path transform="rotate(-37 420.799 68.802)" d="M357.8 17h125.9v103.7H357.8z" style="fill:none;stroke:#000;stroke-width:4;stroke-miterlimit:10;clip-path:url(#SVGID_10_)"/><path transform="rotate(-37.001 420.82 68.353)" class="st7" d="M330.9-14.2h179.8v165.1H330.9z"/></g><ellipse transform="rotate(-37.001 420.46 67.88)" class="st7" cx="420.5" cy="67.9" rx="63" ry="51.8"/><path d="m392.4 61.3 10-7 12.3 17.5c2.1 2.8 3.7 5.8 4.9 9.1.7 2.5.5 5.2-.5 7.6-1.3 3-3.4 5.5-6.2 7.3-3.3 2.3-6.1 3.6-8.5 4-2.3.4-4.7 0-6.9-1-2.4-1.2-4.5-2.9-6.1-5.1l8.6-8c.7 1.1 1.6 2.1 2.6 2.9.7.5 1.5.8 2.4.8.7 0 1.4-.3 1.9-.7 1-.6 1.7-1.8 1.6-3-.3-1.7-1-3.4-2.1-4.7l-14-19.7zm30 11.1 9.1-7.2c1 1.2 2.3 2.1 3.7 2.6 2 .6 4.1.2 5.8-1.1 1.2-.8 2.2-1.9 2.6-3.3.6-1.8-.4-3.8-2.2-4.4-.3-.1-.6-.2-.9-.2-1.2-.1-3.3.4-6.4 1.7-5.1 2.1-9.1 2.9-12.1 2.6-2.9-.3-5.6-1.8-7.2-4.3-1.2-1.7-1.8-3.7-1.9-5.7 0-2.3.6-4.6 1.9-6.5 1.9-2.7 4.2-5 7-6.8 4.2-2.9 7.9-4.3 11.1-4.3 3.2 0 6.2 1.5 9 4.6l-9 7.1c-1.8-2.3-5.2-2.8-7.5-1l-.3.3c-1 .6-1.7 1.5-2.1 2.6-.3.8-.1 1.7.4 2.4.4.5 1 .9 1.7.9.8.1 2.2-.3 4.2-1.2 5-2.1 8.8-3.3 11.4-3.7 2.2-.4 4.5-.2 6.6.7 1.9.8 3.5 2.2 4.6 3.9 1.4 2 2.2 4.4 2.3 6.9.1 2.6-.6 5.1-2 7.3-1.8 2.7-4.1 5-6.8 6.8-5.5 3.8-10 5.4-13.6 4.8-3.9-.6-7.1-2.6-9.4-5.5z"/></g></g></g>
+            </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>
