@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html" lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,32 +15,27 @@
       <nav class="nav">
         <ul class="nav__list reset__list">
           <li class="nav__item">
-            <a href="" class="nav__link reset__link">
+            <a href="#about-me" class="nav__link reset__link">
               <span class="hash">&#35;</span><span>about-me</span>
             </a>
           </li>
           <li class="nav__item">
-            <a href="" class="nav__link reset__link">
+            <a href="#skills" class="nav__link reset__link">
               <span class="hash">&#35;</span><span>skills</span>
             </a>
           </li>
           <li class="nav__item">
-            <a href="" class="nav__link reset__link">
-              <span class="hash">&#35;</span><span>code example</span>
+            <a href="#projects" class="nav__link reset__link">
+              <span class="hash">&#35;</span><span>projects</span>
             </a>
           </li>
           <li class="nav__item">
-            <a href="" class="nav__link reset__link">
+            <a href="#experience" class="nav__link reset__link">
               <span class="hash">&#35;</span><span>experience</span>
             </a>
           </li>
           <li class="nav__item">
-            <a href="" class="nav__link reset__link">
-              <span class="hash">&#35;</span><span>education</span>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="" class="nav__link reset__link">
+            <a href="#contacts" class="nav__link reset__link">
               <span class="hash">&#35;</span><span>contacts</span>
             </a>
           </li>
@@ -61,7 +56,7 @@
           </p>
         </div>
       </section>
-      <section class="skills">
+      <section id="skills" class="skills">
         <h2 class="title">
           <span class="hash">&#35;</span>skills
         </h2>
@@ -103,13 +98,26 @@
         </h2>
         <pre class="code__pre">
           <code>
-  <span class="code__function">function</span> unite(...arrs) {
-    <span class="code__return">return</span> arrs;
+  <span class="code__function">function</span> randomString() {
+    let str = 'qwertyuiopasdfghjklzxcvbnm1234567890!@#$%_+[];,./';
+    let res = '';
+
+    <span class="code__function"></span>function getRandom(min, max) {
+      <span class="code__return">return</span> Math.floor(Math.random() * max - 1);
+    }
+
+    for (let i = 0; i <= 8; i++) {
+      res += str[getRandom(0, str.length - 1)];
+    }
+
+    inp.value = res;
   }
+
+  btn.addEventListener('click', randomString);
           </code>
         </pre>
       </section>
-      <section class="about">
+      <section id="about-me" class="about">
         <h2 class="section__title title">
           <span class="hash">&#35;</span>about-me
         </h2>
@@ -120,7 +128,7 @@
           In my work I complete assigned tasks on time, as meticulously as possible. In my free time I read and study Java Script.
         </p>
       </section>
-      <section class="experience">
+      <section id="experience" class="experience">
         <h2 class="title section__title">
           <span class="hash">&#35;</span>experience
         </h2>
@@ -128,7 +136,7 @@
           no experience
         </p>
       </section>
-      <section class="projects">
+      <section id="projects" class="projects">
         <h2 class="my projects__title title section__title">
           <span class="hash">&#35;</span>projects
         </h2>
@@ -189,7 +197,7 @@
         <h2 class="footer__nav-title">
           <span class="hash">&#35;</span>contacts
         </h2>
-        <ul class="footer__nav-list reset__list">
+        <ul id="contacts" class="footer__nav-list reset__list">
           <li class="footer__nav-item">
             <a href="https://github.com/DmitriyImamov" class="footer__nav-link reset__link" target="_blank">
               <svg class="footer__nav-icon" width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
