@@ -1,0 +1,5 @@
+.hero__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

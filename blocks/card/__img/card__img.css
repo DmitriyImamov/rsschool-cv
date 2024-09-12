@@ -1,0 +1,8 @@
+.card__img {
+  height: 200px;
+  border-bottom: 1px solid #fff;
+  background-image: url(../../../images/cards/mesto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
