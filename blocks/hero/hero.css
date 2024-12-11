@@ -1,0 +1,9 @@
+.hero {
+  padding-bottom: 45px;
+  grid-column: 1/3;
+  display: flex;
+  gap: 100px;
+  background-image: url(../../images/hero/back.png);
+  background-repeat: no-repeat;
+  background-position: 820px center;
+}

@@ -1,0 +1,13 @@
+.projects__title {
+  margin-bottom: 45px;
+}
+
+.projects__title::before {
+  content: '';
+  width: 15%;
+  height: 2px;
+  background-color: #C778DD;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

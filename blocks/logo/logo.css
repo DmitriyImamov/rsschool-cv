@@ -1,0 +1,13 @@
+.logo {
+  padding-left: 24px;
+
+  font-size: 16px;
+  font-family: "fira-code";
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+
+  background-image: url(../../images/logo/Union.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}

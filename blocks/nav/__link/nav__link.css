@@ -1,0 +1,30 @@
+.nav__link {
+  position: relative;
+
+  font-size: 16px;
+  font-family: 'FC';
+  font-weight: 300;
+  color: #fff;
+}
+
+.nav__link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 22px;
+  width: 0;
+  height: 2px;
+  background-color: #C778DD;
+
+  transition-property: width, color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav__link:hover::before {
+  width: 100%;
+}
+
+.nav__link:hover > .hash {
+  color: #fff;
+}
